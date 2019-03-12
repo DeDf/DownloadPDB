@@ -8,7 +8,7 @@ http://msdl.microsoft.com/download/symbols/notepad.pdb/57060987A4344E1A9B9B77F57
 
 问题是如何得到 57060987A4344E1A9B9B77F57D14388A2，注意最后一个字符是pdb的age，相关API为dbghelp!RetrievePdbInfo.
 
-IDA symchk：
+IDA/windbg symchk.exe/dbghelp.dll/symsrv.dll：
  第一次断：
   wininet!InternetConnectW
   
